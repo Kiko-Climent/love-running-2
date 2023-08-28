@@ -84,10 +84,16 @@ nav {
 
 /*Main content*/
 main {
-    background-color: lightblue;
+    /* Make main element take extra space to have the footer on the buttom */
     flex: 1 0 auto;
     margin-top: 47px;
-    /* Make main element take extra space to have the footer on the buttom */
+    
+}
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../assets/images/hero-image.webp) no-repeat center center/cover;
 }
 
 /*Footer*/
