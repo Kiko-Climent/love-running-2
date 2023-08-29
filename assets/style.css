@@ -24,6 +24,9 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #252525;
 }
+.hidden-heading {
+    display: none;
+}
 
 /*Header*/
 header {
@@ -184,6 +187,15 @@ main {
 #times h3 {
     /* Override the heading color */
     color: #fafafa;
+}
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /*Footer*/
