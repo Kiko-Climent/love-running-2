@@ -92,6 +92,9 @@ main {
     /* Make main element take extra space to have the footer on the buttom */
     flex: 1 0 auto;
     margin-top: 47px;
+    /* enable flex properties to child element */
+    display: flex;
+    flex-direction: column;
     
 }
 /* Hero section */
@@ -278,6 +281,19 @@ main {
     /* Gallery */
     #photos {
         column-count: 3;
+    }
+    /* add signup styles mobile */
+
+    #signup {
+        background: url(../assets/images/signup-image.webp);
+        background-size: cover;
+        background-position: 75%;
+        flex-grow: 1;
+    }
+    #signup-form {
+        color:#ffffff
+        background-color: rgba(60, 60, 60, 0.6);
+
     }
 }
 
